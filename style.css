@@ -1,14 +1,14 @@
-* {
+html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(120deg, #dbae59, #ec8d73);
+    background: linear-gradient(90deg, #dbae59, #ec8d73);
     color: white;
     font-family: "Nunito Sans", sans-serif;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 header {
@@ -28,6 +28,7 @@ form input, form button {
     font-size: 2rem;
     border: none;
     background-color: white;
+    outline: none;
 }
 
 form button {
